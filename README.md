@@ -16,10 +16,8 @@ Sentiment Analysis App to aplikacja frontendowa, która pozwala użytkownikowi a
 
 ### Sklonuj repozytorium:
 
-git clone https://github.com/twoje-repo/sentiment-app.git
+git clone https://github.com/wojtekx/sentimentApp.git
 cd sentiment-app
-
-## Instalacja i uruchomienie
 
 ### Zainstaluj zależności:
 
@@ -28,6 +26,8 @@ npm install
 ### Skonfiguruj klucz API:
 
 Utwórz plik .env w katalogu głównym projektu.
+
+W ustawieniach konta uzyskaj darmowy Access Token (zakładka “Settings” → “Access Tokens”).
 
 Dodaj do niego swój klucz API:
 REACT_APP_API_KEY=twój-klucz-api
@@ -44,7 +44,7 @@ npm start
 - CSS – do stylowania aplikacji.
 - Hugging Face Inference API – do analizy sentymentu.
 - ESLint + Prettier – do zapewnienia jakości kodu.
-- Husky – do automatycznego uruchamiania testów oraz eslinta przed commitami.
+- Husky – do automatycznego uruchamiania linta przed commitami.
 
 ### Wyzwania podczas realizacji:
 
