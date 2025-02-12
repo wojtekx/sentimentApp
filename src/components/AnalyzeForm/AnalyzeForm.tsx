@@ -1,6 +1,6 @@
 import React, { FormEvent, ChangeEvent } from 'react';
 import './AnalyzeForm.css';
-import { AnalyzeFormType } from '../../shared/Types';
+import { AnalyzeFormType, SentimentAPIResponse } from '../../shared/Types';
 
 const AnalyzeForm = ({
   setErrorState,
@@ -31,7 +31,7 @@ const AnalyzeForm = ({
           }
           return response.json();
         })
-        .then((response) => {
+        .then((response: SentimentAPIResponse) => {
           const bestResult = response[0].reduce((prev, current) =>
             prev.score > current.score ? prev : current
           );

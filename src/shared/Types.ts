@@ -21,3 +21,10 @@ export type AnalyzeFormType = {
   setValue: (val: string) => void;
   value: string;
 };
+
+export type SentimentAnalysisResponse = {
+  label: 'POSITIVE' | 'NEGATIVE';
+  score: number;
+};
+
+export type SentimentAPIResponse = SentimentAnalysisResponse[][];
