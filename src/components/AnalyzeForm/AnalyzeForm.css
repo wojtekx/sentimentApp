@@ -1,0 +1,18 @@
+.form {
+  margin: 20px 0 0;
+  .input {
+    border: 1px solid black;
+    border-right: none;
+    padding: 5px;
+    border-radius: 10px 0 0 10px;
+    outline: none;
+  }
+  .button {
+    background-color: lawngreen;
+    border: 1px solid green;
+    border-radius: 0 10px 10px 0;
+    padding: 5px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,32 @@
+.modal {
+  border: 1px solid gray;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 5px black;
+  padding: 20px;
+  width: 250px;
+  margin: 25px auto;
+  position: relative;
+
+  .close_btn {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    position: absolute;
+    right: 0;
+    top: 5px;
+    cursor: pointer;
+  }
+
+  .hint {
+    margin-top: 50px;
+    .hint_title {
+      font-size: 15px;
+      font-weight: bold;
+      padding: 0;
+      margin: 0;
+    }
+    .hint_desc {
+      font-size: 11px;
+    }
+  }
+}

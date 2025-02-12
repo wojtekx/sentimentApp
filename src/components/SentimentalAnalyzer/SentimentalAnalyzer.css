@@ -1,0 +1,27 @@
+.sentimental_analyzer {
+  text-align: center;
+  width: 315px;
+  margin: 0 auto;
+  border-radius: 10px;
+  padding-top: 20px;
+  padding-bottom: 25px;
+
+  .title {
+    font-size: 31px;
+    margin-bottom: 4px;
+  }
+  .description {
+    margin-top: 0;
+    font-size: 12px;
+  }
+
+  .error_message,
+  .loading_state {
+    font-size: 12px;
+    margin-top: 4px;
+  }
+
+  .error_message {
+    color: red;
+  }
+}
